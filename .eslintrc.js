@@ -1,0 +1,16 @@
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+    'cypress/globals': true
+  },
+  extends: ['eslint:recommended', 'plugin:cypress/recommended'],
+  plugins: ['cypress'],
+  parserOptions: {
+    ecmaVersion: 2021,
+    sourceType: 'module'
+  },
+  rules: {
+    'no-unused-expressions': 'off'
+  }
+}
