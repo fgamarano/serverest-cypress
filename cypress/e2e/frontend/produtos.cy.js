@@ -21,7 +21,7 @@ describe('Produtos (administrador)', () => {
     cy.contains('table tbody tr', produto.nome).should('be.visible')
   })
 
-  it('deve exibir uma mensagem de erro quando ao cadastrar o produto', () => {
+  it('deve exibir uma mensagem de erro ao falhar o cadastro do produto', () => {
     const admin = buildUsuario({ administrador: 'true' })
     cy.apiCriarUsuario(admin)
     cy.loginViaApi(admin)
