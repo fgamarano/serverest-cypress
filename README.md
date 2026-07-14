@@ -1,5 +1,7 @@
 # ServeRest - Testes Automatizados (Cypress)
 
+[![Cypress Tests](https://github.com/fgamarano/serverest-cypress/actions/workflows/cypress.yml/badge.svg)](https://github.com/fgamarano/serverest-cypress/actions/workflows/cypress.yml)
+
 Suíte de testes automatizados (E2E + API) para a aplicação ServeRest, cobrindo os
 fluxos mais críticos do frontend ([front.serverest.dev](https://front.serverest.dev))
 e da API ([serverest.dev](https://serverest.dev)).
